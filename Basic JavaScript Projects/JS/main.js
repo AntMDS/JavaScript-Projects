@@ -1,5 +1,3 @@
-var A = "This is a string";
+var A = "This is a string", B = "This is another string", C = "This is a third string", D = "This is a fourth string";
 
-document.write("\"the cat is vicious,"
-+ "the cat is crazy\" "
-+ "the cat is insane");
+document.write(A, C);
