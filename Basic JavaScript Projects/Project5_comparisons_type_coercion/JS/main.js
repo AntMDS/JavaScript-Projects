@@ -42,3 +42,26 @@ function function_double_equals_false() {
     document.write(10 == 32);
 }
 
+function function_triple_equals_true() {
+    x = 10;
+    y = 10;
+    document.write(X === y);
+}
+
+function function_triple_equals_false_diff() {
+    x = 82;
+    y = "100";
+    document.write(X === y);    
+}
+
+function function_triple_equals_false_Value() {
+    x = 20;
+    y = 10;
+    document.write(X === y);    
+}
+
+function function_triple_equals_false_data() {
+    x = 10;
+    y = "fox";
+    document.write(X === y);   
+}
