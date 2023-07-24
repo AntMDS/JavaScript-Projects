@@ -32,3 +32,8 @@ function function_Favourite_Flower() { //used to display the switch function
     }
     document.getElementById("Output").innerHTML = flower_Output; // showcases the strin set in flower_Output to the user
 }
+
+function function_Text_Change() { //used to showcase getElementByClassName
+    var A = document.getElementsByClassName("Click");
+    A [0].innerHTML = "Pinapple on pizza is gross!"; // setting the variable of A to 0 means it will only show in the first element with the class click
+}
